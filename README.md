@@ -15,4 +15,10 @@ Este trabalho consiste no desenvolvimento de um sistema para uma organização c
 ## Relatórios:  
 Relatório de Especificação da Informação -  
 Relatório de Especificação da Base de Dados -   
-Relatório de Produto e Apresentação - 
+Relatório de Produto e Apresentação -  
+
+## Galeria: 
+
+## Organização do Repositório: 
+
+## Tecnologias: 
