@@ -16,7 +16,7 @@ Este trabalho consiste no desenvolvimento de um sistema para uma organização c
 ## Relatórios:  
 Relatório de Especificação da Informação - [REI](REI/REI.md)  
 Relatório de Especificação da Base de Dados - [REBD](REBD/REBD.md)  
-Relatório de Produto e Apresentação -  
+Relatório de Produto -  
 
 ## Galeria: 
 
