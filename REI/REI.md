@@ -9,12 +9,12 @@ O sistema também deverá incluir funcionalidades de gestão de clientes, permit
 De forma geral, este sistema pretende melhorar a organização e eficiência de uma cadeia de livrarias.  
 
 ## Modelação do Problema:  
-Desenvolver um serviço para clientes conseguirem pesquisar, online, por livros e saber o stock descontos de cada loja.
-Cada loja tem a sua própria localização e o seu próprio stock de livros e descontos.
-Cada livro possui um título, autor, editora, ano de publicação, categoria, preço e ISBN.
-Cada cliente é identificado por um número, contacto e nome, podendo efetuar várias compras ao longo do tempo.
-Cada venda pode incluir vários livros, registando a data da venda e o valor total da transação.
-Os funcionários estão responsáveis pela gestão da loja e pelas vendas, e são identificados por nome, código e função.
+Desenvolver um serviço para clientes conseguirem pesquisar, online, por livros e saber o stock descontos de cada loja.  
+Cada loja tem a sua própria localização e o seu próprio stock de livros e descontos.  
+Cada livro possui um título, autor, editora, ano de publicação, categoria, preço e ISBN.  
+Cada cliente é identificado por um número, contacto e nome, podendo efetuar várias compras ao longo do tempo.  
+Cada venda pode incluir vários livros, registando a data da venda e o valor total da transação.  
+Os funcionários estão responsáveis pela gestão da loja e pelas vendas, e são identificados por nome, código e função.  
 Não é possível vender um livro que não esteja disponível em stock.  
 
 ## Funcionalidades:  
