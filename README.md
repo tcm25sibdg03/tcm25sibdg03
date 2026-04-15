@@ -22,3 +22,6 @@ Relatório de Produto e Apresentação -
 ## Organização do Repositório: 
 
 ## Tecnologias: 
+Tecnologias utilizadas durante o processo todo do projeto.
+* Wamp server
+* MySQL Workbench
