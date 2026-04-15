@@ -23,5 +23,9 @@ Relatório de Produto e Apresentação -
 
 ## Tecnologias: 
 Tecnologias utilizadas durante o processo todo do projeto.
+* Microsoft Word
+* Markdown
+* Visual Studio Code
+* Dia
 * Wamp server
 * MySQL Workbench
