@@ -10,9 +10,9 @@ O objetivo do trabalho prático é expor os alunos a uma situação de análise 
 
 ## Proposta de trabalho:
 
-Uma organização de lojas de livros que é composta por livros, clientes, funcionários e vendas.  
+Este trabalho consiste no desenvolvimento de um sistema para uma organização composta por várias lojas de livros, com o objetivo principal de permitir a pesquisa online de livros e a consulta de informações relevantes, como a disponibilidade em stock e os descontos associados a cada loja.  
   
 **PROBLEMA de informatização:**  
-Desenvolver um serviço para clientes conseguirem pesquisar, online, por livros e saber o stock/descontos de cada loja/localização. 
+Desenvolver um serviço para clientes conseguirem pesquisar, online, por livros e saber o stock e descontos de cada loja.
 
 ## Relatórios:
