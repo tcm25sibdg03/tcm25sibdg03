@@ -40,3 +40,4 @@ Realiza (LOJA, VENDA) 1:N parcial/total
 
 ## Diagrama:  
 
+![Diagrama]()
