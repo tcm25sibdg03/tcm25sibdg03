@@ -24,3 +24,11 @@ Não é possível vender um livro que não esteja disponível em stock.
 * Registar compras
 * Gestão de clientes
 
+## Entidades:
+LOJA (localizacao)  
+LIVRO (titulo, autor, editora, anoDePublicacao, preco, categoria, ISBN)  
+CLIENTE (numero, contacto, nome)  
+FUNCIONÁRIOS (nome, código, funcao)  
+VENDA (data, valorTotal)  
+
+
