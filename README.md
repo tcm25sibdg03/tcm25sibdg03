@@ -14,7 +14,7 @@ O objetivo do trabalho prático é expor os alunos a uma situação de análise 
 Este trabalho consiste no desenvolvimento de um sistema para uma organização composta por várias lojas de livros, com o objetivo principal de permitir a pesquisa online de livros e a consulta de informações relevantes, como a disponibilidade em stock e os descontos associados a cada loja.  
 
 ## Relatórios:  
-Relatório de Especificação da Informação -  
+Relatório de Especificação da Informação - [REI](doc/REI/REI.md)  
 Relatório de Especificação da Base de Dados -   
 Relatório de Produto e Apresentação -  
 
