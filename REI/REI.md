@@ -8,6 +8,13 @@ Além da componente de pesquisa e consulta, o sistema deverá suportar o registo
 O sistema também deverá incluir funcionalidades de gestão de clientes, permitindo o registo de novos clientes, bem como a atualização e consulta dos seus dados. Esta componente é importante para manter um histórico de compras e possibilitar uma melhor organização da informação associada a cada utilizador.  
 De forma geral, este sistema pretende melhorar a organização e eficiência de uma cadeia de livrarias.  
 
+## Funcionalidades:  
+* Pesquisa e gestão de livros online
+* Ver stock por loja
+* Ver descontos por loja
+* Registar compras
+* Gestão de clientes
+
 ## Modelação do Problema:  
 Desenvolver um serviço para clientes conseguirem pesquisar, online, por livros e saber o stock descontos de cada loja.  
 Cada loja tem a sua própria localização e o seu próprio stock de livros e descontos.  
@@ -16,13 +23,6 @@ Cada cliente é identificado por um número, contacto e nome, podendo efetuar v�
 Cada venda pode incluir vários livros, registando a data da venda e o valor total da transação.  
 Os funcionários estão responsáveis pela gestão da loja e pelas vendas, e são identificados por nome, código e função.  
 Não é possível vender um livro que não esteja disponível em stock.  
-
-## Funcionalidades:  
-* Pesquisa e gestão de livros online
-* Ver stock por loja
-* Ver descontos por loja
-* Registar compras
-* Gestão de clientes
 
 ## Entidades:
 LOJA (localizacao)  
