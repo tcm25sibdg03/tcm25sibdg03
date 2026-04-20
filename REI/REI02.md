@@ -6,3 +6,7 @@
 * Ver descontos por loja
 * Registar compras
 * Gestão de clientes
+
+
+[< Previous](REI.md) | [^ Main](/../../) | [Next >](REI03.md)
+:--- | :---: | ---: 
