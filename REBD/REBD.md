@@ -29,10 +29,6 @@ Efetua (CLIENTE, VENDA) 1:N parcial/total
 Regista (FUNCIONARIO, VENDA) 1:N parcial/total  
 Realiza (LOJA, VENDA) 1:N parcial/total  
 
-## Modelo E/A:  
-
-![Diagrama](Diagrama_LIVRARIA.jpeg)
-
 
 < Previous | [^ Main](/../../) | [Next >](REBD02.md)
 :--- | :---: | ---: 
