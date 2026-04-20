@@ -41,8 +41,3 @@ Realiza (LOJA, VENDA) 1:N parcial/total
 ## Diagrama:  
 
 ![Diagrama](Diagrama_LIVRARIA.jpeg)
-
-
----
-[< Previous](README.md) | [^ Main](/../../) | [Next >](REI02.md)
-:--- | :---: | ---: 
