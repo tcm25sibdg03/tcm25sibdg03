@@ -20,9 +20,7 @@ Cada venda pode incluir vários livros, registando a data da venda e o valor tot
 Os funcionários estão responsáveis pela gestão da loja e pelas vendas, e são identificados por nome, código e função.  
 Não é possível vender um livro que não esteja disponível em stock.   
 
-## Diagrama:  
 
-![Diagrama](Diagrama_LIVRARIA.jpeg)
 
 
 < Previous | [^ Main](/../../) | [Next >](REI02.md)
