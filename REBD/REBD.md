@@ -21,11 +21,29 @@ Não é possível vender um livro que não esteja disponível em stock.
 
 
 **Funcionalidades:**  
-* Pesquisa e gestão de livros online
-* Ver stock por loja
-* Ver descontos por loja
-* Registar compras
-* Gestão de clientes  
+**Pesquisa de livros:**
+Pesquisa por título, autor ou categoria
+Interface simples e eficiente para localização de livros
+Consulta de disponibilidade
+Verificação de em que lojas um livro está disponível
+Consulta da quantidade de stock em cada loja
+Comparação de disponibilidade entre diferentes localizações
+Gestão de descontos
+Visualização de promoções aplicadas a livros
+Comparação de preços entre lojas
+Apoio à decisão de compra com base em descontos
+Registo de compras
+Registo de transações com múltiplos livros
+Associação de data e valor total da compra
+Validação de stock antes da venda
+Gestão de clientes
+Registo de novos clientes
+Atualização de dados de clientes
+Consulta de informação e histórico de compras
+Gestão de stock (implícita)
+Controlo de inventário por loja
+Atualização de stock após compras
+Garantia de consistência dos dados 
 
 **Entidades (atores):**  
 LOJA (localizacao)  
