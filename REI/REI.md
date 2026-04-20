@@ -1,5 +1,8 @@
 # Relatório de Especificação da Informação  
 
+**Grupo tcm25sibdg03:**  
+A047345 - Joana Ambrósio  
+
 ## Descrição do trabalho:  
 Este trabalho consiste no desenvolvimento de um sistema para uma organização composta por várias lojas de livros, com o objetivo principal de permitir a pesquisa online de livros e a consulta de informações relevantes, como a disponibilidade em stock e os descontos associados a cada loja.  
 O sistema deverá permitir aos utilizadores pesquisar livros de forma simples e eficiente, utilizando critérios como o título, autor ou categoria. Para além disso, será possível consultar em que lojas um determinado livro se encontra disponível, bem como verificar a quantidade existente em stock em cada localização. Esta funcionalidade é essencial, uma vez que cada loja possui o seu próprio inventário, podendo haver diferenças na disponibilidade entre elas.  
