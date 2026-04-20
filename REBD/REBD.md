@@ -1,5 +1,8 @@
 # Relatório de Especificação da Base de Dados
 
+**Grupo tcm25sibdg03:**  
+A047345 - Joana Ambrósio  
+
 ## Descrição do trabalho:  
 ???
 
@@ -29,3 +32,7 @@ Realiza (LOJA, VENDA) 1:N parcial/total
 ## Modelo E/A:  
 
 ![Diagrama](Diagrama_LIVRARIA.jpeg)
+
+
+< Previous | [^ Main](/../../) | [Next >](REBD02.md)
+:--- | :---: | ---: 
