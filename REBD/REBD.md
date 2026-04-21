@@ -22,11 +22,11 @@ Não é possível commprar um livro que não esteja disponível em stock.
 * Gestão de clientes
 
 **Entidades (atores):**  
-LOJA (localizacao)  
-LIVRO (titulo, autor, editora, anoDePublicacao, preco, categoria, _ISBN_)  
-CLIENTE (_numero_, contacto, nome)  
-FUNCIONÁRIOS (nome, _código_, funcao)  
-VENDA (data, valorTotal)  
+LOJA (localizacao(cidade,rua)  
+LIVRO (ISBN, titulo, autor, editora, anoDePublicacao, preco, categoria)  
+CLIENTE (numero, contacto, nome)  
+FUNCIONÁRIOS (código, nome, função)  
+COMPRA (data, valorTotal)   
 
 **Associações e Restrições:**  
 Tem, quantidade, desconto(LOJA, LIVRO) N:M parcial/total  
