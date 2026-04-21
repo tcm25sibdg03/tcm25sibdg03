@@ -10,7 +10,7 @@ Cada livro possui um ISBN, título, autor, editora, ano de publicação, categor
 Cada cliente é identificado por um número, contacto e nome, podendo efetuar várias compras ao longo do tempo ou até ao mesmo tempo.  
 Cada compra pode incluir vários livros, registando a data da venda e o valor total da transação.  
 Os funcionários estão responsáveis pela gestão da loja e pelas compras, e são identificados por nome, código e função.  
-Não é possível commprar um livro que não esteja disponível em stock.   
+Não é possível comprar um livro que não esteja disponível em stock.   
 
 ## Descrição dos requisitos do utilizador:  
 
