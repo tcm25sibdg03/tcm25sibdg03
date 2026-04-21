@@ -29,11 +29,12 @@ FUNCIONÁRIOS (código, nome, função)
 COMPRA (data, valorTotal)   
 
 **Associações e Restrições:**  
-Tem, quantidade, desconto(LOJA, LIVRO) N:M parcial/total  
-Inclui, quantidade(VENDA, LIVRO) N:M total/parcial  
-Efetua (CLIENTE, VENDA) 1:N parcial/total  
-Regista (FUNCIONARIO, VENDA) 1:N parcial/total  
-Realiza (LOJA, VENDA) 1:N parcial/total  
+Tem (LOJA, LIVRO, quantidade) N:M parcial/total  
+AplicaDescontos (LOJA, LIVRO, percentagem, dataInicio, dataFim) N:M total/parcial  
+Inclui (COMPRA, LIVRO, quantidade, preço) N:M total/parcial  
+Efetua (CLIENTE, COMPRA) 1:N parcial/total  
+Regista (FUNCIONARIO, COMPRA) 1:N parcial/total  
+Realiza (LOJA, COMPRA) N:M parcial/total 
 
 
 < Previous | [^ Main](/../../) | [Next >](REBD02.md)
