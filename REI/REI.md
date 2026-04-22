@@ -13,7 +13,7 @@ De forma geral, este sistema pretende melhorar a organização e eficiência de 
 
 ## Modelação do Problema:  
 Desenvolver um serviço para clientes conseguirem pesquisar, online, por livros e saber o stock descontos de cada loja.  
-Cada loja tem a sua própria localização, decomposta em cidade e rua e cada loja tem o seu próprio stock de livros e descontos.  
+Cada loja tem um identificador próprio e a sua própria localização, decomposta em cidade e rua e cada loja tem o seu próprio stock de livros e descontos.  
 Cada livro possui um ISBN, título, autor, editora, ano de publicação, categoria e preço.  
 Cada cliente é identificado por um número, contacto e nome, podendo efetuar várias compras ao longo do tempo ou até ao mesmo tempo.  
 Cada compra pode incluir vários livros, registando a data da venda e o valor total da transação.  
