@@ -23,16 +23,19 @@ Não é possível comprar um livro que não esteja em stock.
 * Gestão de clientes
 
 **Entidades (atores):**  
-LOJA (localizacao(cidade,rua)  
+LOJA (id, localizacao(cidade,rua)  
 LIVRO (ISBN, titulo, autor, editora, anoDePublicacao, preco, categoria)  
 CLIENTE (numero, contacto, nome)  
 FUNCIONÁRIOS (código, nome, função)  
-COMPRA (data, valorTotal)   
+COMPRA (id, tipo, data, valorTotal)   
+ENDEREÇO (morada (código_postal, localidade, rua, numero)
+DESCONTO (percentagem, data_inicio, data_fim)
 
 **Associações e Restrições:**  
 Tem (LOJA, LIVRO, quantidade) N:M parcial/total  
-AplicaDescontos (LOJA, LIVRO, percentagem, dataInicio, dataFim) N:M total/parcial  
-Inclui (COMPRA, LIVRO, quantidade, preço) N:M total/parcial  
+Aplicado (DESCONTO, LOJA) N:M parcial/parcial
+Inclui (COMPRA, LIVRO, quantidade, preço, valorTotal, percentagem) N:M total/parcial  
+Entrega (COMPRA, ENDEREÇO) 1:1 parcial/total
 Efetua (CLIENTE, COMPRA) 1:N parcial/total  
 Regista (FUNCIONARIO, COMPRA) 1:N parcial/total  
 Realiza (LOJA, COMPRA) N:M parcial/total 
