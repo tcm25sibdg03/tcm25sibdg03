@@ -4,7 +4,7 @@
 A047345 - Joana Ambrósio  
 
 ## Descrição do trabalho:  
-Este trabalho consiste no desenvolvimento de um sistema destinado a uma organização composta por várias livrarias. O principal objetivo é permitir aos clientes pesquisar livros online e consultar informações relevantes, como a disponibilidade em stock e os descontos praticados em cada loja.  
+Este trabalho consiste no desenvolvimento de um sistema destinado a uma organização composta por várias livrarias. O principal objetivo é permitir aos clientes pesquisar livros online e consultar informações relevantes, como a disponibilidade em stock e os descontos presentes em cada loja.  
 Cada loja tem um identificador próprio e a sua localização, decomposta em cidade e rua e cada uma tem o seu próprio stock de livros e descontos.  
 Cada livro possui um ISBN, título, autor, editora, ano de publicação, categoria e preço.  
 Cada cliente é identificado por um número, contacto e nome, podendo efetuar várias compras ao longo do tempo ou até ao mesmo tempo.  
