@@ -33,12 +33,12 @@ DESCONTO (percentagem, data_inicio, data_fim)
 
 **Associações e Restrições:**  
 Tem (LOJA, LIVRO, quantidade) N:M parcial/total  
-Aplicado (DESCONTO, LOJA) N:M parcial/parcial
+Aplicado (DESCONTO, LOJA) N:M parcial/parcial  
 Inclui (COMPRA, LIVRO, quantidade, preço, valorTotal, percentagem) N:M total/parcial  
-Entrega (COMPRA, ENDEREÇO) 1:1 parcial/total
+Entrega (COMPRA, ENDEREÇO) 1:1 parcial/total  
 Efetua (CLIENTE, COMPRA) 1:N parcial/total  
 Regista (FUNCIONARIO, COMPRA) 1:N parcial/total  
-Realiza (LOJA, COMPRA) N:M parcial/total 
+Realiza (LOJA, COMPRA) N:M parcial/total  
 
 
 < Previous | [^ Main](/../../) | [Next >](REBD02.md)
