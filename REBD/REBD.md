@@ -5,12 +5,13 @@ A047345 - Joana Ambrósio
 
 ## Descrição do trabalho:  
 Este trabalho consiste no desenvolvimento de um sistema destinado a uma organização composta por várias livrarias. O principal objetivo é permitir aos clientes pesquisar livros online e consultar informações relevantes, como a disponibilidade em stock e os descontos praticados em cada loja.  
-Cada loja tem a sua própria localização, decomposta em cidade e rua e cada loja tem o seu próprio stock de livros e descontos.  
-Cada livro possui um ISBN, título, autor, editora, ano de publicação, categoria e preço.  
-Cada cliente é identificado por um número, contacto e nome, podendo efetuar várias compras ao longo do tempo ou até ao mesmo tempo.  
-Cada compra pode incluir vários livros, registando a data da venda e o valor total da transação.  
-Os funcionários estão responsáveis pela gestão da loja e pelas compras, e são identificados por nome, código e função.  
-Não é possível comprar um livro que não esteja disponível em stock.   
+Cada loja tem um identificador próprio e a sua localização, decomposta em cidade e rua e cada uma tem o seu próprio stock de livros e descontos.
+Cada livro possui um ISBN, título, autor, editora, ano de publicação, categoria e preço.
+Cada cliente é identificado por um número, contacto e nome, podendo efetuar várias compras ao longo do tempo ou até ao mesmo tempo.
+Os funcionários são responsáveis pela gestão da loja e as compras e são identificados por código, nome e função.
+Compras podem ser presenciais ou online. Cada compra tem de incluir pelo menos um livro mas pode incluir vários de uma só vez.
+Numa compra fica registado um identificador próprio, data e o seu valor total.
+Não é possível comprar um livro que não esteja em stock.
 
 ## Descrição dos requisitos do utilizador:  
 
