@@ -28,7 +28,7 @@ LIVRO (ISBN, titulo, autor, editora, anoDePublicacao, preco, categoria)
 CLIENTE (numero, contacto, nome)  
 FUNCIONÁRIOS (código, nome, função)  
 COMPRA (id, tipo, data, valorTotal)   
-ENDEREÇO (morada (código_postal, localidade, rua, numero)
+ENDEREÇO (morada (código_postal, localidade, rua, numero)  
 DESCONTO (percentagem, data_inicio, data_fim)
 
 **Associações e Restrições:**  
