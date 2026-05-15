@@ -8,11 +8,11 @@
 * Gestão de clientes
 
 ## Entidades:
-LOJA (id, localizacao(cidade,rua)  
-LIVRO (ISBN, titulo, autor, editora, anoDePublicacao, preco, categoria)  
+LOJA (localizacao)  
+LIVRO (titulo, autor, editora, anoDePublicacao, preco, categoria, ISBN)  
 CLIENTE (numero, contacto, nome)  
-FUNCIONÁRIOS (código, nome, função)  
-COMPRA (código, data, valorTotal)  
+FUNCIONÁRIOS (nome, código, funcao)  
+VENDA (data, valorTotal)  
 
 ## Associações e Restrições:  
 Tem (LOJA, LIVRO, quantidade) N:M parcial/total  
