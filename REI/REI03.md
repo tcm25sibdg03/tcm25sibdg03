@@ -2,7 +2,7 @@
 
 ## Modelo E/A:  
 
-![Diagrama](Diagrama_LIVRARIA.jpeg)
+![Diagrama](Diagrama_REI_antigo.png)
 
 [< Previous](REI02.md) | [^ Main](/../../) | Next >
 :--- | :---: | ---: 
