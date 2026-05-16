@@ -64,10 +64,10 @@ CREATE TABLE IF NOT EXISTS 'compra' (
   'numeroCliente' INT NOT NULL,
   'codigoFuncionario' INT NOT NULL,
   PRIMARY KEY ('idCompra')
-  FOREIGN KEY (numeroCliente)
-    REFERENCES cliente(numero),
-  FOREIGN KEY (codigoFuncionario)
-    REFERENCES funcionario(codigo),
+  FOREIGN KEY ('numeroCliente')
+    REFERENCES 'cliente'('numero'),
+  FOREIGN KEY ('codigoFuncionario')
+    REFERENCES 'funcionario'('codigo'),
 );
 
 CREATE TABLE IF NOT EXISTS 'endereco' (
@@ -78,8 +78,8 @@ CREATE TABLE IF NOT EXISTS 'endereco' (
   'numero' INT NOT NULL,
   'idCompra' INT NOT NULL,
   PRIMARY KEY ('idEncomenda')
-  FOREIGN KEY (idCompra)
-    REFERENCES compra(idCompra),
+  FOREIGN KEY ('idCompra')
+    REFERENCES 'compra'('idCompra'),
 );
 
 
