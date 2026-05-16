@@ -1,3 +1,3 @@
-# C3 : SQL
+# SQL
 
 ## DDL
