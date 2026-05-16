@@ -2,7 +2,8 @@
 
 ## SQL/DDL:
 
-
+```sql
+USE `livraria`;
 
 
 [< Previous](REBD04.md) | [^ Main](/../../) | Next >
