@@ -87,9 +87,23 @@ CREATE TABLE IF NOT EXISTS 'tem' (
   'isbnLivro' CHAR(13) NOT NULL,
   'quantidade' INT NOT NULL,
   PRIMARY KEY ('idLoja', 'isbnLivro'),
-  FOREIGN KEY ('idLoja') REFERENCES 'loja'('idLoja'),
-  FOREIGN KEY ('isbnLivro') REFERENCES 'livro'('isbn')
+  FOREIGN KEY ('idLoja')
+    REFERENCES 'loja'('idLoja'),
+  FOREIGN KEY ('isbnLivro')
+    REFERENCES 'livro'('isbn')
 );
+
+CREATE TABLE IF NOT EXISTS aplicadoEm (
+  percentagem INT NOT NULL,
+  idLoja INT NOT NULL,
+  PRIMARY KEY (percentagem, idLoja),
+  FOREIGN KEY (percentagem)
+    REFERENCES desconto(percentagem),
+  FOREIGN KEY (idLoja)
+    REFERENCES loja(idLoja)
+);
+
+
 
 
 ```
