@@ -56,6 +56,19 @@ CREATE TABLE IF NOT EXISTS 'desconto' (
   PRIMARY KEY ('percentagem')
 );
 
+CREATE TABLE IF NOT EXISTS 'compra' (
+  'idCompra' INT NOT NULL,
+  'tipo' VARCHAR(50) NOT NULL,
+  'data' DATE NOT NULL,
+  'valorTotal' DECIMAL NOT NULL,
+  'numeroCliente' INT NOT NULL,
+  'codigoFuncionario' INT NOT NULL,
+  PRIMARY KEY ('percentagem')
+  FOREIGN KEY (numeroCliente)
+    REFERENCES cliente(numero),
+  FOREIGN KEY (codigoFuncionario)
+    REFERENCES funcionario(codigo),
+);
 
 
 ```
