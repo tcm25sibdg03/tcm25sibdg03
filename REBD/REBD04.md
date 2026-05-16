@@ -5,7 +5,7 @@
 ### Tabela de livro
 #### DESCRIÇÃO:
 
-### Relações:
+### Relações N:M
 ### Tabela da relação - Tem
 
 #### DESCRIÇÃO:
