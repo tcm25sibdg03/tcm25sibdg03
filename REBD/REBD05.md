@@ -28,11 +28,11 @@ CREATE TABLE IF NOT EXISTS 'livro' (
   PRIMARY KEY ('isbn')
 );
 
-CREATE TABLE IF NOT EXISTS loja (
-  idLoja INT NOT NULL,
-  cidade VARCHAR(50) NOT NULL,
-  rua VARCHAR(50) NOT NULL,
-  PRIMARY KEY (idLoja)
+CREATE TABLE IF NOT EXISTS 'loja' (
+  'idLoja' INT NOT NULL,
+  'cidade' VARCHAR(50) NOT NULL,
+  'rua' VARCHAR(50) NOT NULL,
+  PRIMARY KEY ('idLoja')
 );
 
 CREATE TABLE IF NOT EXISTS cliente (
