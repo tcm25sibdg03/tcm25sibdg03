@@ -68,6 +68,7 @@ CREATE TABLE IF NOT EXISTS 'compra' (
     REFERENCES cliente(numero),
   FOREIGN KEY (codigoFuncionario)
     REFERENCES funcionario(codigo),
+CHECK (tipo = 'online' OR tipo = 'presencial')
 );
 
 
