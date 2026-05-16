@@ -2,6 +2,10 @@
 
 ## Esquema Relacional:
 
+### Tabela de livro
+#### DESCRIÇÃO:
+
+### Relações:
 ### Tabela da relação - Tem
 
 #### DESCRIÇÃO:
@@ -11,9 +15,9 @@ A tabela tem foi criada através da relação N:M entre LOJA e LIVRO e quantidad
 
 | Atributo     | Descrição                 | Domínio     | por Omissão | Automático | Nulo |
 | :------- | :------------------------ | :---------- | :---------- | :--------- | :--- |
-| idLoja       | identificador da tabela A | BIGINT      | -           | Sim        | Não  |
-| isbn     | Data do registo           | DATE        | now()       | Não        | Não  |
-| quantidade     | Nome do registo           | VARCHAR(50) | -           | Não        | Não  |
+| idLoja       | identificador de cada loja | INT      | -           | -        | Não  |
+| isbn     | identificador único de livros           | INT        | -       | -        | Não  |
+| quantidade     | quantidade do stock de livros por loja           | INT | -           | -        | Não  |
 
 [< Previous](REBD03.md) | [^ Main](/../../) | Next >
 :--- | :---: | ---: 
