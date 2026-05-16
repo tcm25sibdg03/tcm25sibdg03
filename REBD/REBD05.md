@@ -35,11 +35,11 @@ CREATE TABLE IF NOT EXISTS 'loja' (
   PRIMARY KEY ('idLoja')
 );
 
-CREATE TABLE IF NOT EXISTS cliente (
-  numero INT NOT NULL,
-  nome VARCHAR(50) NOT NULL,
-  contacto CHAR(9) NOT NULL UNIQUE,
-  PRIMARY KEY (numero)
+CREATE TABLE IF NOT EXISTS 'cliente' (
+  'numero' INT NOT NULL,
+  'nome' VARCHAR(50) NOT NULL,
+  'contacto' CHAR(9) NOT NULL UNIQUE,
+  PRIMARY KEY ('numero')
 );
 
 CREATE TABLE IF NOT EXISTS funcionario (
