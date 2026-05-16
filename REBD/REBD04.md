@@ -9,9 +9,13 @@ Esta tabela é onde se pode encontrar ainda mais informação sobre cada livro.
 
 | Atributo     | Descrição                 | Domínio     | por Omissão | Automático | Nulo |
 | :------- | :------------------------ | :---------- | :---------- | :--------- | :--- |
-| idLoja       | identificador de cada loja | INT      | -           | -        | Não  |
-| isbn     | identificador único de livros           | INT        | -       | -        | Não  |
-| quantidade     | quantidade do stock de livros por loja           | INT | -           | -        | Não  |
+| isbn       | identificador único de livros | INT      | -           | -        | Não  |
+| título     | nomes dos livros           | INT        | -       | -        | Não  |
+| autor     | nome dos criadores dos livros           | INT | -           | -        | Não  |
+| editora     | que empresa editorial fez o livro           | INT | -           | -        | Não  |
+| ano de publicação     | o ano em que o livro foi lançado           | INT | -           | -        | Não  |
+| preço     | preço de cada livro           | DECIMAL | -           | -        | Não  |
+| categoria     | a que género de literatura o livro pertence           | INT | -           | -        | Não  |
 
 
 ### Relações N:M
