@@ -1,6 +1,6 @@
 # Relatório de Especificação da Base de Dados
 
-## SQL:
+## Esquema Relacional:
 
 
 [< Previous](REBD03.md) | [^ Main](/../../) | Next >
