@@ -23,9 +23,9 @@ CREATE TABLE IF NOT EXISTS 'livro' (
   'autor' VARCHAR(50) NOT NULL,
   'editora' VARCHAR(50) NOT NULL,
   'anoDePublicacao' INT NOT NULL,
-  'preco' DECIMAL NOT NULL CHECK (preco > 0),
+  'preco' DECIMAL NOT NULL CHECK ('preco' > 0),
   'categoria' VARCHAR(50) NOT NULL,
-  PRIMARY KEY (isbn)
+  PRIMARY KEY ('isbn')
 );
 
 CREATE TABLE IF NOT EXISTS loja (
