@@ -63,12 +63,25 @@ CREATE TABLE IF NOT EXISTS 'compra' (
   'valorTotal' DECIMAL NOT NULL CHECK (valorTotal > 0),
   'numeroCliente' INT NOT NULL,
   'codigoFuncionario' INT NOT NULL,
-  PRIMARY KEY ('percentagem')
+  PRIMARY KEY ('idCompra')
   FOREIGN KEY (numeroCliente)
     REFERENCES cliente(numero),
   FOREIGN KEY (codigoFuncionario)
     REFERENCES funcionario(codigo),
 );
+
+CREATE TABLE IF NOT EXISTS 'endereco' (
+  'idEncomenda' INT NOT NULL,
+  'codigoPostal' CHAR(7) NOT NULL,
+  'localidade' VARCHAR(50) NOT NULL,
+  'rua' VARCHAR(50) NOT NULL,
+  'numero' INT NOT NULL,
+  'idCompra' INT NOT NULL,
+  PRIMARY KEY ('idEncomenda')
+  FOREIGN KEY (idCompra)
+    REFERENCES compra(idCompra),
+);
+
 
 
 ```
