@@ -42,18 +42,18 @@ CREATE TABLE IF NOT EXISTS 'cliente' (
   PRIMARY KEY ('numero')
 );
 
-CREATE TABLE IF NOT EXISTS funcionario (
-  codigo INT NOT NULL,
-  nome VARCHAR(50) NOT NULL,
-  funcao VARCHAR(50) NOT NULL,
-  PRIMARY KEY (codigo)
+CREATE TABLE IF NOT EXISTS 'funcionario' (
+  'codigo' INT NOT NULL,
+  'nome' VARCHAR(50) NOT NULL,
+  'funcao' VARCHAR(50) NOT NULL,
+  PRIMARY KEY ('codigo')
 );
 
-CREATE TABLE IF NOT EXISTS desconto (
-  percentagem INT NOT NULL CHECK (percentagem > 0 AND percentagem < 50),
-  dataInicio DATE NOT NULL,
-  dataFim DATE NOT NULL,
-  PRIMARY KEY (percentagem)
+CREATE TABLE IF NOT EXISTS 'desconto' (
+  'percentagem' INT NOT NULL CHECK ('percentagem' > 0 AND 'percentagem' < 50),
+  'dataInicio' DATE NOT NULL,
+  'dataFim' DATE NOT NULL,
+  PRIMARY KEY ('percentagem')
 );
 
 
