@@ -2,8 +2,7 @@
 
 ## Esquema Relacional:
 
-| Nome     | Descrição                 | Domínio     | por Omissão | Automático | Nulo |
-| Nome     | Descrição                 | Domínio     | por Omissão | Automático | Nulo |
+![Esquema_Relacional](modelo_relacional.jpeg)
 
 [< Previous](REBD02.md) | [^ Main](/../../) | [Next >](REBD04.md)
 :--- | :---: | ---: 
