@@ -41,5 +41,5 @@ A tabela tem informação sobre que descontos foram aplicados em cada loja.
 | percentagem       | percentagem do desconto | DECIMAL      | -           | -        | Não  |
 | idLoja     | identificador de cada loja           | INT        | -       | -        | Não  |
 
-[< Previous](REBD03.md) | [^ Main](/../../) | Next >
+[< Previous](REBD03.md) | [^ Main](/../../) | [Next >](REBD05.md)
 :--- | :---: | ---: 
