@@ -1,6 +1,6 @@
 # Relatório de Especificação da Base de Dados
 
-## Esquema Relacional:
+## Do Modelo EA a Relação:
 
 ![Esquema_Relacional](modelo_relacional.png)
 
