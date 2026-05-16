@@ -23,12 +23,12 @@ Não é possível comprar um livro que não esteja em stock.
 * Gestão de clientes
 
 **Entidades (atores):**  
-LOJA (id, localizacao(cidade,rua)  
+LOJA (idLoja, localizacao(cidade,rua)  
 LIVRO (ISBN, titulo, autor, editora, anoDePublicacao, preco, categoria)  
 CLIENTE (numero, contacto, nome)  
 FUNCIONÁRIOS (código, nome, função)  
-COMPRA (id, tipo, data, valorTotal)   
-ENDEREÇO (morada (código_postal, localidade, rua, numero)  
+COMPRA (idCompra, tipo, data, valorTotal)   
+ENDEREÇO (idEncomenda, morada (código_postal, localidade, rua, numero)  
 DESCONTO (percentagem, data_inicio, data_fim)
 
 **Associações e Restrições:**  
