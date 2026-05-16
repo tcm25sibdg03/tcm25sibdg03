@@ -30,5 +30,16 @@ A tabela tem foi criada através da relação N:M entre LOJA e LIVRO e quantidad
 | isbn     | identificador único de livros           | INT        | -       | -        | Não  |
 | quantidade     | quantidade do stock de livros por loja           | INT | -           | -        | Não  |
 
+
+### Tabela da relação - AplicadoEm
+
+#### DESCRIÇÃO:
+A tabela tem informação sobre que descontos foram aplicados em cada loja.
+
+| Atributo     | Descrição                 | Domínio     | por Omissão | Automático | Nulo |
+| :------- | :------------------------ | :---------- | :---------- | :--------- | :--- |
+| percentagem       | percentagem do desconto | DECIMAL      | -           | -        | Não  |
+| idLoja     | identificador de cada loja           | INT        | -       | -        | Não  |
+
 [< Previous](REBD03.md) | [^ Main](/../../) | Next >
 :--- | :---: | ---: 
