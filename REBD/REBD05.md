@@ -82,6 +82,14 @@ CREATE TABLE IF NOT EXISTS 'endereco' (
     REFERENCES 'compra'('idCompra'),
 );
 
+CREATE TABLE IF NOT EXISTS 'tem' (
+  'idLoja' INT NOT NULL,
+  'isbnLivro' CHAR(13) NOT NULL,
+  'quantidade' INT NOT NULL,
+  PRIMARY KEY ('idLoja', 'isbnLivro'),
+  FOREIGN KEY ('idLoja') REFERENCES 'loja'('idLoja'),
+  FOREIGN KEY ('isbnLivro') REFERENCES 'livro'('isbn')
+);
 
 
 ```
