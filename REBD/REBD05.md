@@ -60,7 +60,7 @@ CREATE TABLE IF NOT EXISTS 'compra' (
   'idCompra' INT NOT NULL,
   'tipo' VARCHAR(50) NOT NULL CHECK (tipo = 'online' OR tipo = 'presencial'),
   'data' DATE NOT NULL,
-  'valorTotal' DECIMAL NOT NULL CHECK (valorTotal > 0),
+  'valorTotal' DECIMAL NOT NULL CHECK ('valorTotal' > 0),
   'numeroCliente' INT NOT NULL,
   'codigoFuncionario' INT NOT NULL,
   PRIMARY KEY ('idCompra')
