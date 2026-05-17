@@ -111,10 +111,21 @@ CREATE TABLE IF NOT EXISTS 'inclui' (
   'percentagem' INT NOT NULL CHECK ('percentagem' > 0 AND 'percentagem' < 50),
   'valorTotal' DECIMAL(10,2) NOT NULL CHECK (valorTotal > 0),
   PRIMARY KEY ('idCompra', 'isbnLivro'),
-  FOREIGN KEY ('idCompra') REFERENCES 'compra'('idCompra'),
-  FOREIGN KEY ('isbnLivro') REFERENCES 'livro'('isbn')
+  FOREIGN KEY ('idCompra')
+    REFERENCES 'compra'('idCompra'),
+  FOREIGN KEY ('isbnLivro')
+    REFERENCES 'livro'('isbn')
 );
 
+CREATE TABLE IF NOT EXISTS realiza (
+  idLoja INT NOT NULL,
+  idCompra INT NOT NULL,
+  PRIMARY KEY (idLoja, idCompra),
+  FOREIGN KEY (idLoja)
+    REFERENCES loja(idLoja),
+  FOREIGN KEY (idCompra)
+    REFERENCES compra(idCompra)
+);
 
 
 ```
