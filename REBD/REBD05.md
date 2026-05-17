@@ -117,14 +117,14 @@ CREATE TABLE IF NOT EXISTS 'inclui' (
     REFERENCES 'livro'('isbn')
 );
 
-CREATE TABLE IF NOT EXISTS realiza (
-  idLoja INT NOT NULL,
-  idCompra INT NOT NULL,
-  PRIMARY KEY (idLoja, idCompra),
-  FOREIGN KEY (idLoja)
-    REFERENCES loja(idLoja),
-  FOREIGN KEY (idCompra)
-    REFERENCES compra(idCompra)
+CREATE TABLE IF NOT EXISTS 'realiza' (
+  'idLoja' INT NOT NULL,
+  'idCompra' INT NOT NULL,
+  PRIMARY KEY ('idLoja', 'idCompra'),
+  FOREIGN KEY ('idLoja')
+    REFERENCES 'loja'('idLoja'),
+  FOREIGN KEY ('idCompra')
+    REFERENCES 'compra'('idCompra')
 );
 
 
