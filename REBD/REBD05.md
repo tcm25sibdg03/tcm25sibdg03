@@ -103,6 +103,17 @@ CREATE TABLE IF NOT EXISTS 'aplicadoEm' (
     REFERENCES 'loja'('idLoja')
 );
 
+CREATE TABLE IF NOT EXISTS 'inclui' (
+  'idCompra' INT NOT NULL,
+  'isbnLivro' CHAR(13) NOT NULL,
+  'quantidade' INT NOT NULL,
+  'preco' DECIMAL NOT NULL CHECK ('preco' > 0),
+  'percentagem' INT NOT NULL CHECK ('percentagem' > 0 AND 'percentagem' < 50),
+  'valorTotal' DECIMAL(10,2) NOT NULL CHECK (valorTotal > 0),
+  PRIMARY KEY ('idCompra', 'isbnLivro'),
+  FOREIGN KEY ('idCompra') REFERENCES 'compra'('idCompra'),
+  FOREIGN KEY ('isbnLivro') REFERENCES 'livro'('isbn')
+);
 
 
 
