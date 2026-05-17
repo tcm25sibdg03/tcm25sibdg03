@@ -109,7 +109,7 @@ CREATE TABLE IF NOT EXISTS 'inclui' (
   'quantidade' INT NOT NULL,
   'preco' DECIMAL NOT NULL CHECK ('preco' > 0),
   'percentagem' INT NOT NULL CHECK ('percentagem' > 0 AND 'percentagem' < 50),
-  'valorTotal' DECIMAL(10,2) NOT NULL CHECK (valorTotal > 0),
+  'valorTotal' DECIMAL NOT NULL CHECK ('valorTotal' > 0),
   PRIMARY KEY ('idCompra', 'isbnLivro'),
   FOREIGN KEY ('idCompra')
     REFERENCES 'compra'('idCompra'),
