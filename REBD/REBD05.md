@@ -94,7 +94,7 @@ CREATE TABLE IF NOT EXISTS 'tem' (
 );
 
 CREATE TABLE IF NOT EXISTS aplicadoEm (
-  percentagem INT NOT NULL,
+  percentagem INT NOT NULL CHECK ('percentagem' > 0 AND 'percentagem' < 50),
   idLoja INT NOT NULL,
   PRIMARY KEY (percentagem, idLoja),
   FOREIGN KEY (percentagem)
