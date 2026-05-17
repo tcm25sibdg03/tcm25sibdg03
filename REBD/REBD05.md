@@ -58,7 +58,7 @@ CREATE TABLE IF NOT EXISTS 'desconto' (
 
 CREATE TABLE IF NOT EXISTS 'compra' (
   'idCompra' INT NOT NULL,
-  'tipo' VARCHAR(50) NOT NULL CHECK (tipo = 'online' OR tipo = 'presencial'),
+  'tipo' VARCHAR(50) DEFAULT 'presencial' NOT NULL CHECK (tipo = 'online' OR tipo = 'presencial'),
   'data' DATE NOT NULL,
   'valorTotal' DECIMAL NOT NULL CHECK ('valorTotal' > 0),
   'numeroCliente' INT NOT NULL,
