@@ -162,7 +162,7 @@ INSERT INTO 'livro' ('isbn', 'titulo', 'autor', 'editora', 'anoDePublicacao', 'p
 ('9789722370158', 'Uma pequena vida', 'Hanya Yanagihara', 'Presença', 2022, 20.93, 'Drama');
 
 
-INSERT INTO loja (idLoja, cidade, rua) VALUES
+INSERT INTO 'loja' ('idLoja', 'cidade', 'rua') VALUES
 (1, 'Aveiro', 'R. dos Combatentes da Grande Guerra'),
 (2, 'Braga', 'Av. da Liberdade'),
 (3, 'Coimbra', 'R. Ferreira Borges'),
