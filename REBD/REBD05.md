@@ -213,7 +213,7 @@ INSERT INTO "funcionario" ("codigo", "nome", "funcao") VALUES
 (4566, 'Catarina Santos', 'operador de caixa'),
 (6789, 'Tiago Ferreira', 'operador de caixa'),
 (1880, 'Pedro Silva', 'operador de caixa'),
-(234, 'Pedro Santos', 'operador de caixa');
+(2134, 'Pedro Santos', 'operador de caixa');
 (7011, 'Lucas Martins', 'repositor'),
 (7012, 'Mariana Costa', 'repositor'),
 (7013, 'Diogo Almeida', 'repositor'),
