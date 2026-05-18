@@ -247,7 +247,7 @@ INSERT INTO "compra" ("idCompra", "tipo", "data", "valorTotal", "numeroCliente",
 (15, 'presencial', '2026-05-24', 52.88, 16161616, 2134);
 
 
-INSERT INTO endereco (idEncomenda, codigoPostal, localidade, rua, numero, idCompra) VALUES
+INSERT INTO "endereco" ("idEncomenda", "codigoPostal", "localidade", "rua", "numero", "idCompra") VALUES
 (1, '1000-001', 'Lisboa', 'Rua Augusta', 15, 2),
 (2, '4700-100', 'Braga', 'Avenida Central', 22, 4),
 (3, '4000-200', 'Porto', 'Rua de Santa Catarina', 103, 6),
