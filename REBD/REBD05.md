@@ -129,7 +129,7 @@ CREATE TABLE IF NOT EXISTS 'realiza' (
 
 START TRANSACTION;
 
-INSERT INTO livro (isbn, titulo, autor, editora, anoDePublicacao, preco, categoria) VALUES
+INSERT INTO 'livro' ('isbn', 'titulo', 'autor', 'editora', 'anoDePublicacao', 'preco', 'categoria') VALUES
 ('9789895701124', 'A criada', 'Freida McFadden', 'Alma dos Livros', 2023, 19.45, 'Drama'),
 ('9789895702756', 'A criada está a ver', 'Freida McFadden', 'Alma dos Livros', 2023, 19.45, 'Drama'),
 ('9789892367118', 'A espada de Kaigen', 'M.L Wang', 'Asa', 2026, 28.71, 'Fantasia'),
