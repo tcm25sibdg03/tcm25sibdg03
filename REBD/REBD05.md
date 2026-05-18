@@ -170,6 +170,37 @@ INSERT INTO loja (idLoja, cidade, rua) VALUES
 (5, 'Porto', 'Av. da Boavista');
 
 
+INSERT INTO "cliente" ("numero", "nome", "contacto") VALUES
+(11111111, 'Maria Santos', 919999999),
+(22222222, 'Carlos Gomes', 912345678),
+(33333333, 'Sara Silva', 919876543),
+(44444444, 'Maria Moreira', 916345748),
+(55555555, 'João Ferreira', 913456789),
+(66666666, 'Ana Costa', 914567890),
+(77777777, 'Pedro Almeida', 915678901),
+(88888888, 'Rita Oliveira', 916789012),
+(99999999, 'Tiago Sousa', 917890123),
+(10101010, 'Carla Martins', 918901234),
+(12121212, 'Bruno Pereira', 919012345),
+(13131313, 'Sofia Rodrigues', 912111222),
+(14141414, 'Miguel Lopes', 913222333),
+(15151515, 'Inês Carvalho', 914333444),
+(16161616, 'André Teixeira', 915444555),
+(17171717, 'Patrícia Mendes', 916555666),
+(18181818, 'Ricardo Nunes', 917666777),
+(19191919, 'Daniela Rocha', 918777888),
+(20202020, 'Filipe Correia', 919888999),
+(21212121, 'Helena Ramos', 912999000),
+(23232323, 'Vasco Pinto', 913101010),
+(24242424, 'Cláudia Neves', 914202020),
+(25252525, 'Luís Faria', 915303030),
+(26262626, 'Beatriz Melo', 916404040),
+(27272727, 'Nuno Cardoso', 917505050),
+(28282828, 'Teresa Cunha', 918606060),
+(29292929, 'Paulo Ribeiro', 919707070),
+(30303030, 'Cátia Gomes', 912808080),
+(31313131, 'Marco Vieira', 913909090),
+(32323232, 'Eva Monteiro', 914010101);
 
 
 
