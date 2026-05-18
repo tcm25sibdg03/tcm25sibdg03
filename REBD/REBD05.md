@@ -221,6 +221,14 @@ INSERT INTO "funcionario" ("codigo", "nome", "funcao") VALUES
 (7015, 'Renato Oliveira', 'repositor');
 
 
+INSERT INTO "desconto" ("percentagem", "dataInicio", "dataFim") VALUES
+(5,  '2026-01-01', '2026-01-15'),
+(10, '2026-02-01', '2026-02-14'),
+(15, '2026-03-01', '2026-03-20'),
+(20, '2026-04-01', '2026-04-30'),
+(25, '2026-05-01', '2026-05-31');
+
+
 
 ```
 
