@@ -203,6 +203,24 @@ INSERT INTO "cliente" ("numero", "nome", "contacto") VALUES
 (32323232, 'Eva Monteiro', 914010101);
 
 
+INSERT INTO "funcionario" ("codigo", "nome", "funcao") VALUES
+(9733, 'Ana Santos', 'livreiro'),
+(1234, 'José Santos', 'livreiro'),
+(3799, 'Rita Torres', 'livreiro'),
+(4321, 'Hugo Gomes', 'livreiro'),
+(5876, 'Marco Silva', 'livreiro'),
+(2644, 'Tiago Santos', 'operador de caixa'),
+(4566, 'Catarina Santos', 'operador de caixa'),
+(6789, 'Tiago Ferreira', 'operador de caixa'),
+(1880, 'Pedro Silva', 'operador de caixa'),
+(234, 'Pedro Santos', 'operador de caixa');
+(7011, 'Lucas Martins', 'repositor'),
+(7012, 'Mariana Costa', 'repositor'),
+(7013, 'Diogo Almeida', 'repositor'),
+(7014, 'Filipa Sousa', 'repositor'),
+(7015, 'Renato Oliveira', 'repositor');
+
+
 
 ```
 
