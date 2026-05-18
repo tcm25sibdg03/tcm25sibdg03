@@ -229,6 +229,20 @@ INSERT INTO "desconto" ("percentagem", "dataInicio", "dataFim") VALUES
 (25, '2026-05-01', '2026-05-31');
 
 
+INSERT INTO "compra" 
+("idCompra", "tipo", "data", "valorTotal", "numeroCliente", "codigoFuncionario") 
+VALUES
+(1, 'presencial', '2026-05-10', 39.35, 11111111, 2644),
+(2, 'online', '2026-05-11', 24.90, 22222222, 4566),
+(3, 'presencial', '2026-05-12', 18.90, 33333333, 1880),
+(4, 'online', '2026-05-13', 52.80, 44444444, 6789),
+(5, 'presencial', '2026-05-14', 14.90, 55555555, 2134);
+
+
+
+
+
+
 
 ```
 
