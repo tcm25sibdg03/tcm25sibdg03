@@ -234,8 +234,8 @@ INSERT INTO desconto (percentagem, datainicio, datafim) VALUES
 
 INSERT INTO compra (idcompra, tipo, data, valorTotal, numerocliente, codigofuncionario) VALUES
 (1, 'presencial', 2026-05-10, 39.35, 11111111, 2644),
-(2, 'online', 2026-05-11, 24.90, 22222222, 4566),
-(3, 'presencial', 2026-05-12, 18.90, 33333333, 1880),
+(2, 'online', 2026-05-11, 22.41, 22222222, 4566),
+(3, 'presencial', 2026-05-12, 16.07, 33333333, 1880),
 (4, 'online', 2026-05-13, 52.80, 44444444, 6789),
 (5, 'presencial', 2026-05-14, 14.90, 55555555, 2134),
 (6, 'online', 2026-05-15, 22.00, 66666666, 2644),
