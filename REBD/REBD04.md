@@ -16,7 +16,8 @@ Esta tabela é onde se pode encontrar ainda mais informação sobre cada livro.
 | ano de publicação     | o ano em que o livro foi lançado           | INT | -           | Não        | Não  |
 | preço     | preço de cada livro           | DECIMAL(5.2) | -           | Não        | Não  |
 | categoria     | a que género de literatura o livro pertence           | VARCHAR(50) | -           | Não        | Não  |  
-
+* Chave primária: isbn
+* Atributos (check): CHECK (preco > 0)
 
 
 ### Tabela - LOJA
