@@ -15,7 +15,20 @@ Esta tabela é onde se pode encontrar ainda mais informação sobre cada livro.
 | editora     | que empresa editorial fez o livro           | VARCHAR(50) | -           | Não        | Não  |
 | ano de publicação     | o ano em que o livro foi lançado           | INT | -           | Não        | Não  |
 | preço     | preço de cada livro           | DECIMAL(5.2) | -           | Não        | Não  |
-| categoria     | a que género de literatura o livro pertence           | VARCHAR(50) | -           | Não        | Não  |
+| categoria     | a que género de literatura o livro pertence           | VARCHAR(50) | -           | Não        | Não  |  
+
+
+
+### Tabela - LOJA
+#### DESCRIÇÃO:
+Esta tabela é onde se pode encontrar ainda mais informação sobre cada loja.
+
+| Atributo     | Descrição                 | Domínio     | por Omissão | Automático | Nulo |
+| :------- | :------------------------ | :---------- | :---------- | :--------- | :--- |
+| idloja       | identificador único das lojas | INT      | -           | Não        | Não  |
+| cidade     | nome da cidade           | VARCHAR(50)        | -       | Não        | Não  |
+| rua     | nome da rua           | VARCHAR(50) | -           | Não        | Não  |
+
 
 
 ### Relações N:M
