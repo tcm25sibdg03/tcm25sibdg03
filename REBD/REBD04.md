@@ -53,7 +53,7 @@ Esta tabela é onde se pode encontrar ainda mais informação sobre os funcionar
 
 | Atributo     | Descrição                 | Domínio     | por Omissão | Automático | Nulo |
 | :------- | :------------------------ | :---------- | :---------- | :--------- | :--- |
-| codigo       | numero de cliente | INT      | -           | Não        | Não  |
+| codigo       | codigo de funcionario | INT      | -           | Não        | Não  |
 | nome     | nomes dos funcionarios           | VARCHAR(50)        | -       | Não        | Não  |
 | funcao     | função que cada funcionario desempenha           | VARCHAR(50) | -           | Não        | Não  |
 * Chave primária: codigo
