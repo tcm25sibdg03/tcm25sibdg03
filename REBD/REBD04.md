@@ -9,13 +9,13 @@ Esta tabela é onde se pode encontrar ainda mais informação sobre cada livro.
 
 | Atributo     | Descrição                 | Domínio     | por Omissão | Automático | Nulo |
 | :------- | :------------------------ | :---------- | :---------- | :--------- | :--- |
-| isbn       | identificador único de livros | BIGINT      | -           | -        | Não  |
-| título     | nomes dos livros           | VARCHAR(50)        | -       | -        | Não  |
-| autor     | nome dos criadores dos livros           | VARCHAR(50) | -           | -        | Não  |
-| editora     | que empresa editorial fez o livro           | VARCHAR(50) | -           | -        | Não  |
-| ano de publicação     | o ano em que o livro foi lançado           | INT | -           | -        | Não  |
-| preço     | preço de cada livro           | DECIMAL(5.2) | -           | -        | Não  |
-| categoria     | a que género de literatura o livro pertence           | VARCHAR(50) | -           | -        | Não  |
+| isbn       | identificador único de livros | BIGINT      | -           | Não        | Não  |
+| título     | nomes dos livros           | VARCHAR(50)        | -       | Não        | Não  |
+| autor     | nome dos criadores dos livros           | VARCHAR(50) | -           | Não        | Não  |
+| editora     | que empresa editorial fez o livro           | VARCHAR(50) | -           | Não        | Não  |
+| ano de publicação     | o ano em que o livro foi lançado           | INT | -           | Não        | Não  |
+| preço     | preço de cada livro           | DECIMAL(5.2) | -           | Não        | Não  |
+| categoria     | a que género de literatura o livro pertence           | VARCHAR(50) | -           | Não        | Não  |
 
 
 ### Relações N:M
