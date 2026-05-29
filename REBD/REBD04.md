@@ -31,6 +31,18 @@ Esta tabela é onde se pode encontrar ainda mais informação sobre cada loja.
 
 
 
+### Tabela - CIENTE
+#### DESCRIÇÃO:
+Esta tabela é onde se pode encontrar ainda mais informação sobre os clientes.
+
+| Atributo     | Descrição                 | Domínio     | por Omissão | Automático | Nulo |
+| :------- | :------------------------ | :---------- | :---------- | :--------- | :--- |
+| numero       | numero de cliente | INT      | -           | Não        | Não  |
+| nome     | nome de cliente           | VARCHAR(50)        | -       | Não        | Não  |
+| contacto     | contacto dos clientes           | INT | -           | Não        | Não  |
+
+
+
 ### Relações N:M
 ### Tabela da relação - Tem
 
