@@ -165,8 +165,8 @@ A tabela REALZIA foi criada através da relação N:M entre LOJA e COMPRA. Aqui 
 
 | Atributo     | Descrição                 | Domínio     | por Omissão | Automático | Nulo |
 | :------- | :------------------------ | :---------- | :---------- | :--------- | :--- |
-| idloja       | identificador de loja | INT      | -           | -        | Não  |
-| idcompra     | identificador de cada compra           | INT        | -       | -        | Não  |
+| idloja       | identificador de loja | INT      | -           | Não        | Não  |
+| idcompra     | identificador de cada compra           | INT        | -       | Não        | Não  |
 * Chave primária: idloja / idcompra
 * Referêncial: idloja - loja / idcompra - compra
 
