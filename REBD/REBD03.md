@@ -16,7 +16,7 @@
 
 **Inclui**
 
-| #idLoja → loja | #idLoja → loja | quantidade | preço | percentagem | valorTotal |
+| #idcompra → compra | #isbnlivro → livro | quantidade | preço | percentagem | valorTotal |
 |---|---|---|---|---|---|
 
 
