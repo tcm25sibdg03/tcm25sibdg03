@@ -120,9 +120,9 @@ A tabela TEM foi criada através da relação N:M entre LOJA e LIVRO e quantidad
 
 | Atributo     | Descrição                 | Domínio     | por Omissão | Automático | Nulo |
 | :------- | :------------------------ | :---------- | :---------- | :--------- | :--- |
-| idLoja       | identificador de cada loja | INT      | -           | -        | Não  |
-| isbn     | identificador único de livros           | BIGINT        | -       | -        | Não  |
-| quantidade     | quantidade do stock de livros por loja           | INT | -           | -        | Não  |
+| idLoja       | identificador de cada loja | INT      | -           | Não        | Não  |
+| isbn     | identificador único de livros           | BIGINT        | -       | Não        | Não  |
+| quantidade     | quantidade do stock de livros por loja           | INT | -           | Não        | Não  |
 * Chave primária: idloja / isbnlivro
 * Referêncial: idloja - loja / isbnlivro - livro
 
@@ -133,8 +133,8 @@ A tabela APLICADOEM foi criada através da relação N:M entre DESCONTO e LOJA. 
 
 | Atributo     | Descrição                 | Domínio     | por Omissão | Automático | Nulo |
 | :------- | :------------------------ | :---------- | :---------- | :--------- | :--- |
-| percentagem       | percentagem do desconto | INT      | -           | -        | Não  |
-| idLoja     | identificador de cada loja           | INT        | -       | -        | Não  |
+| percentagem       | percentagem do desconto | INT      | -           | Não        | Não  |
+| idLoja     | identificador de cada loja           | INT        | -       | Não        | Não  |
 * Chave primária: percentagem / idloja
 * Referêncial: percentagem - desconto / idloja - loja
 * Atributos (check): CHECK (percentagem > 0 AND percentagem < 50)
