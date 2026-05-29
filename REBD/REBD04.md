@@ -161,7 +161,7 @@ A tabela INCLUI foi criada através da relação N:M entre COMPRA e LIVRO, quant
 
 ### Tabela - REALIZA
 #### DESCRIÇÃO:
-A tabela REALZIA foi criada através da relação N:M entre LOJA e COMPRA. Aqui é possível descobrir em que lojas cada compra foi realizada.
+A tabela REALIZA foi criada através da relação N:M entre LOJA e COMPRA. Aqui é possível descobrir em que lojas cada compra foi realizada.
 
 | Atributo     | Descrição                 | Domínio     | por Omissão | Automático | Nulo |
 | :------- | :------------------------ | :---------- | :---------- | :--------- | :--- |
