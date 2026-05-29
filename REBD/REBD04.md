@@ -59,6 +59,20 @@ Esta tabela é onde se pode encontrar ainda mais informação sobre os funcionar
 * Chave primária: codigo
 
 
+
+### Tabela - DESCONTO
+#### DESCRIÇÃO:
+Esta tabela é onde se pode encontrar ainda mais informação sobre os descontos aplicados em cada loja.
+
+| Atributo     | Descrição                 | Domínio     | por Omissão | Automático | Nulo |
+| :------- | :------------------------ | :---------- | :---------- | :--------- | :--- |
+| percentagem       | percentagem do desconto aplicado | INT      | -           | Não        | Não  |
+| datainicio     | data de inicio do desconto           | DATE        | -       | Não        | Não  |
+| datafim     | data de fim do desconto           | DATE | -           | Não        | Não  |
+* Chave primária: percentagem
+
+
+
 ### Relações N:M
 ### Tabela da relação - Tem
 
