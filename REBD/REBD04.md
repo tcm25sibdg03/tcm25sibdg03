@@ -85,7 +85,7 @@ A tabela COMPRA foi criada através da relação 1:N entre COMPRA, CLIENTE e FUN
 | :------- | :------------------------ | :---------- | :---------- | :--------- | :--- |
 | idcompra       | identificador único de compras | INT      | -           | Não        | Não  |
 | tipo     | se é presencial ou online           | VARCHAR(50)        | DEFAULT 'presencial'       | Não        | Não  |
-| data     | ndata da compra           | DATE | -           | Não        | Não  |
+| data     | data da compra           | DATE | -           | Não        | Não  |
 | valortotal     | valor total da compra           | DECIMAL(6.2) | -           | Não        | Não  |
 | numerocliente     | numero de cliente           | INT | -           | Não        | Não  |
 | codigofuncionario     | codigo de funcionario           | INT | -           | Não        | Não  |
