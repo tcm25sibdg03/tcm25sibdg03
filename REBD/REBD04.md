@@ -113,27 +113,38 @@ Esta tabela é onde se pode encontrar ainda mais informação sobre as encomenda
 * Referêncial: idcompra - compra
 
 
-
-### Tabela da relação - Tem
+### Relações N:M
+### Tabela - Tem
 #### DESCRIÇÃO:
-A tabela tem foi criada através da relação N:M entre LOJA e LIVRO e quantidade.
+A tabela tem foi criada através da relação N:M entre LOJA e LIVRO e quantidade. Aqui é possível descobrir quantos livros tem em cada loja.
 
 | Atributo     | Descrição                 | Domínio     | por Omissão | Automático | Nulo |
 | :------- | :------------------------ | :---------- | :---------- | :--------- | :--- |
 | idLoja       | identificador de cada loja | INT      | -           | -        | Não  |
-| isbn     | identificador único de livros           | INT        | -       | -        | Não  |
+| isbn     | identificador único de livros           | BIGINT        | -       | -        | Não  |
 | quantidade     | quantidade do stock de livros por loja           | INT | -           | -        | Não  |
+* Chave primária: idloja / isbnlivro
+* Referêncial: idloja - loja / isbnlivro - livro
 
 
-### Tabela da relação - AplicadoEm
-
+### Tabela - AplicadoEm
 #### DESCRIÇÃO:
-A tabela tem informação sobre que descontos foram aplicados em cada loja.
+A tabela tem foi criada através da relação N:M entre DESCONTO e LOJA. Aqui é possível descobrir que descontos foram aplicados em cada loja.
 
 | Atributo     | Descrição                 | Domínio     | por Omissão | Automático | Nulo |
 | :------- | :------------------------ | :---------- | :---------- | :--------- | :--- |
-| percentagem       | percentagem do desconto | DECIMAL      | -           | -        | Não  |
+| percentagem       | percentagem do desconto | INT      | -           | -        | Não  |
 | idLoja     | identificador de cada loja           | INT        | -       | -        | Não  |
+* Chave primária:
+* Referêncial:
+* Atributos (check):
+
+
+
+### Tabela - Inclui
+#### DESCRIÇÃO:
+A tabela tem foi criada através da relação N:M entre LOJA e LIVRO e quantidade. Aqui é possível descobrir quantos livros tem em cada loja.
+
 
 [< Previous](REBD03.md) | [^ Main](/../../) | [Next >](REBD05.md)
 :--- | :---: | ---: 
