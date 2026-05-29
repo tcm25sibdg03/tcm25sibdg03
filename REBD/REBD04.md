@@ -79,7 +79,7 @@ Esta tabela é onde se pode encontrar ainda mais informação sobre os descontos
 
 ### Tabela - COMPRA
 #### DESCRIÇÃO:
-Esta tabela é onde se pode encontrar ainda mais informação sobre cada compra.
+A tabela COMPRA foi criada através da relação 1:N entre COMPRA, CLIENTE e FUNCIONARIO. Aqui é onde se pode encontrar ainda mais informação sobre cada compra.
 
 | Atributo     | Descrição                 | Domínio     | por Omissão | Automático | Nulo |
 | :------- | :------------------------ | :---------- | :---------- | :--------- | :--- |
@@ -99,7 +99,7 @@ Esta tabela é onde se pode encontrar ainda mais informação sobre cada compra.
 
 ### Tabela - ENDERECO
 #### DESCRIÇÃO:
-Esta tabela é onde se pode encontrar ainda mais informação sobre as encomendas.
+A tabela ENDERECO foi criada através da relação 1:1 entre ENCOMENDA e COMPRA. Aqui é onde se pode encontrar ainda mais informação sobre as encomendas.
 
 | Atributo     | Descrição                 | Domínio     | por Omissão | Automático | Nulo |
 | :------- | :------------------------ | :---------- | :---------- | :--------- | :--- |
@@ -114,9 +114,9 @@ Esta tabela é onde se pode encontrar ainda mais informação sobre as encomenda
 
 
 ### Relações N:M
-### Tabela - Tem
+### Tabela - TEM
 #### DESCRIÇÃO:
-A tabela tem foi criada através da relação N:M entre LOJA e LIVRO e quantidade. Aqui é possível descobrir quantos livros tem em cada loja.
+A tabela TEM foi criada através da relação N:M entre LOJA e LIVRO e quantidade. Aqui é possível descobrir quantos livros tem em cada loja.
 
 | Atributo     | Descrição                 | Domínio     | por Omissão | Automático | Nulo |
 | :------- | :------------------------ | :---------- | :---------- | :--------- | :--- |
@@ -127,23 +127,24 @@ A tabela tem foi criada através da relação N:M entre LOJA e LIVRO e quantidad
 * Referêncial: idloja - loja / isbnlivro - livro
 
 
-### Tabela - AplicadoEm
+### Tabela - APLICADOEM
 #### DESCRIÇÃO:
-A tabela tem foi criada através da relação N:M entre DESCONTO e LOJA. Aqui é possível descobrir que descontos foram aplicados em cada loja.
+A tabela APLICADOEM foi criada através da relação N:M entre DESCONTO e LOJA. Aqui é possível descobrir que descontos foram aplicados em cada loja.
 
 | Atributo     | Descrição                 | Domínio     | por Omissão | Automático | Nulo |
 | :------- | :------------------------ | :---------- | :---------- | :--------- | :--- |
 | percentagem       | percentagem do desconto | INT      | -           | -        | Não  |
 | idLoja     | identificador de cada loja           | INT        | -       | -        | Não  |
-* Chave primária:
-* Referêncial:
-* Atributos (check):
+* Chave primária: percentagem / idloja
+* Referêncial: percentagem - desconto / idloja - loja
+* Atributos (check): CHECK (percentagem > 0 AND percentagem < 50)
 
 
 
-### Tabela - Inclui
+### Tabela - INCLUI
 #### DESCRIÇÃO:
-A tabela tem foi criada através da relação N:M entre LOJA e LIVRO e quantidade. Aqui é possível descobrir quantos livros tem em cada loja.
+A tabela INCLUI foi criada através da relação N:M entre COMPRA e LIVRO, quantidade, preço, percentagem e valor total. Aqui é possível descobrir que livros foram comprados e informações adicionais relevantes.
+
 
 
 [< Previous](REBD03.md) | [^ Main](/../../) | [Next >](REBD05.md)
