@@ -145,6 +145,31 @@ A tabela APLICADOEM foi criada através da relação N:M entre DESCONTO e LOJA. 
 #### DESCRIÇÃO:
 A tabela INCLUI foi criada através da relação N:M entre COMPRA e LIVRO, quantidade, preço, percentagem e valor total. Aqui é possível descobrir que livros foram comprados e informações adicionais relevantes.
 
+| Atributo     | Descrição                 | Domínio     | por Omissão | Automático | Nulo |
+| :------- | :------------------------ | :---------- | :---------- | :--------- | :--- |
+| idcompra       | identificador único de compra | INT      | -           | Não        | Não  |
+| isbnlivro     | identificador único de livros           | INT        | -       | Não        | Não  |
+| quantidade     | quantidade de livros comprados           | INT | -           | Não        | Não  |
+| preco     | preço da compra          | DECIMAL(5.2) | -           | Não        | Não  |
+| percentagem     | percentagem de desconto          | INT | -           | Não        | Não  |
+| valortotal    | valor total dos livros comprados após desconto          | DECIMAL(5.2) | -           | Não        | Não  |
+* Chave primária: idcompra / isbnlivro
+* Referêncial: idcompra - compra / isbnlivro - livro
+* Atributos (check): CHECK (preco > 0) / CHECK (percentagem > 0 AND percentagem < 50) / CHECK (valortotal > 0)
+
+
+
+### Tabela - REALIZA
+#### DESCRIÇÃO:
+A tabela REALZIA foi criada através da relação N:M entre LOJA e COMPRA. Aqui é possível descobrir em que lojas cada compra foi realizada.
+
+| Atributo     | Descrição                 | Domínio     | por Omissão | Automático | Nulo |
+| :------- | :------------------------ | :---------- | :---------- | :--------- | :--- |
+| idloja       | identificador de loja | INT      | -           | -        | Não  |
+| idcompra     | identificador de cada compra           | INT        | -       | -        | Não  |
+* Chave primária: idloja / idcompra
+* Referêncial: idloja - loja / idcompra - compra
+
 
 
 [< Previous](REBD03.md) | [^ Main](/../../) | [Next >](REBD05.md)
