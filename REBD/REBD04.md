@@ -29,6 +29,7 @@ Esta tabela é onde se pode encontrar ainda mais informação sobre cada loja.
 | idloja       | identificador único das lojas | INT      | -           | Não        | Não  |
 | cidade     | nome da cidade           | VARCHAR(50)        | -       | Não        | Não  |
 | rua     | nome da rua           | VARCHAR(50) | -           | Não        | Não  |
+* Chave primária: idloja
 
 
 
