@@ -70,12 +70,51 @@ Esta tabela é onde se pode encontrar ainda mais informação sobre os descontos
 | datainicio     | data de inicio do desconto           | DATE        | -       | Não        | Não  |
 | datafim     | data de fim do desconto           | DATE | -           | Não        | Não  |
 * Chave primária: percentagem
+* Atributos (check): CHECK (percentagem > 0 AND percentagem < 50)
+
+
+### Tabelas de Relações
+
+### Relações 1:N
+
+### Tabela - COMPRA
+#### DESCRIÇÃO:
+Esta tabela é onde se pode encontrar ainda mais informação sobre cada compra.
+
+| Atributo     | Descrição                 | Domínio     | por Omissão | Automático | Nulo |
+| :------- | :------------------------ | :---------- | :---------- | :--------- | :--- |
+| idcompra       | identificador único de compras | INT      | -           | Não        | Não  |
+| tipo     | se é presencial ou online           | VARCHAR(50)        | DEFAULT 'presencial'       | Não        | Não  |
+| data     | ndata da compra           | DATE | -           | Não        | Não  |
+| valortotal     | valor total da compra           | DECIMAL(6.2) | -           | Não        | Não  |
+| numerocliente     | numero de cliente           | INT | -           | Não        | Não  |
+| codigofuncionario     | codigo de funcionario           | INT | -           | Não        | Não  |
+* Chave primária: idcompra
+* Referêncial: numerocliente - cliente / codigofuncionario - funcionario
+* Atributos (check): CHECK (tipo = 'online' OR tipo = 'presencial' / CHECK (valortotal > 0)
 
 
 
-### Relações N:M
+### Relações 1:1
+
+### Tabela - ENDERECO
+#### DESCRIÇÃO:
+Esta tabela é onde se pode encontrar ainda mais informação sobre as encomendas.
+
+| Atributo     | Descrição                 | Domínio     | por Omissão | Automático | Nulo |
+| :------- | :------------------------ | :---------- | :---------- | :--------- | :--- |
+| idencomenda       | identificador único de encomenda enviada para o endereço | INT      | -           | Não        | Não  |
+| codigopostal     | codigo postal do endereço           | INT        | -       | Não        | Não  |
+| localidade     | localidade do endereço           | VARCHAR(50) | -           | Não        | Não  |
+| rua     | rua de endereço           | VARCHAR(50) | -           | Não        | Não  |
+| numero     | numero da porta do endereço          | INT | -           | Não        | Não  |
+| idcompra    | identificador da compra associada ao endereço           | INT | -           | Não        | Não  |
+* Chave primária: idencomenda
+* Referêncial: idcompra - compra
+
+
+
 ### Tabela da relação - Tem
-
 #### DESCRIÇÃO:
 A tabela tem foi criada através da relação N:M entre LOJA e LIVRO e quantidade.
 
