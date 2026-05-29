@@ -26,10 +26,10 @@
 |---|---|
 
 
-**Cliente**
+**Compra**
 
-| numero | nome | contacto | #id → compra |
-|---|---|---|---|
+| idcompra | tipo | data | valortotal | #numero → cliente | #codigo → funcionario |
+|---|---|---|---|---|---|
 
 
 **Funcionario**
