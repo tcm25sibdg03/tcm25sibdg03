@@ -43,6 +43,17 @@ Esta tabela é onde se pode encontrar ainda mais informação sobre os clientes.
 
 
 
+### Tabela - FUNCIONARIO
+#### DESCRIÇÃO:
+Esta tabela é onde se pode encontrar ainda mais informação sobre os funcionarios das livrarias.
+
+| Atributo     | Descrição                 | Domínio     | por Omissão | Automático | Nulo |
+| :------- | :------------------------ | :---------- | :---------- | :--------- | :--- |
+| codigo       | numero de cliente | INT      | -           | Não        | Não  |
+| nome     | nomes dos funcionarios           | VARCHAR(50)        | -       | Não        | Não  |
+| funcao     | função que cada funcionario desempenha           | VARCHAR(50) | -           | Não        | Não  |
+
+
 ### Relações N:M
 ### Tabela da relação - Tem
 
