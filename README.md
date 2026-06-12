@@ -30,3 +30,6 @@ Tecnologias utilizadas durante o processo todo do projeto.
 * Dia
 * Wamp server
 * MySQL Workbench
+* Node.js
+* Loopback 4
+* Reactmin
